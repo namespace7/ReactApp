@@ -6,7 +6,7 @@ export default function Header() {
             {/* Header */}
             <div id="header">
                 <span className="  fa-paper-plane" />
-                <h1>Hi. I'm yashwant.</h1>
+                <h1>Hi. I'm yashwant kumar</h1>
                 <p>
                     Software Developer{" "}
                     <a to="http://html5up.net">Home</a>

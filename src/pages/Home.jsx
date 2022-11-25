@@ -66,12 +66,12 @@ export default function Home() {
                     <footer className="major container medium">
                         <h3>About</h3>
                         <p>
-                            Download CV
+                            You know what you're looking for and you just found it
                         </p>
                         <ul className="actions special">
                             <li>
                                 <a to={CV} className="button">
-                                    Join our crew
+                                    Ask to join your crew
                                 </a>
                             </li>
                         </ul>
