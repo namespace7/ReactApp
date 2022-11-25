@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import CV from '../components/cv.pdf'
+import CV from '../components/cv.pdf';
+import image from '../svgs/livestreaming.svg';
+import image_c from '../svgs/c++.svg';
+import image_androidStudio from '../svgs/androidstudio.svg';
 
 export default function Home() {
     return (
@@ -26,29 +29,30 @@ export default function Home() {
                     <div className="box alt container">
                         <section className="feature left">
                             <a to="#" className="image icon solid fa-signal">
-                                <img src="assets/images/pic01.jpg" alt="" />
+                                <img src={image} style={{ height: 53, width: 36 }} alt="" />
                             </a>
                             <div className="content">
                                 <h3>Video Encoding</h3>
                                 <p>
-                                    live VOD streaming encoding & decording to different platform.
+                                Live VOD streaming to different platforms (web, android).
+
                                 </p>
                             </div>
                         </section>
                         <section className="feature right">
                             <a to="#" className="image icon solid fa-code">
-                                <img src="assets/images/pic02.jpg" alt="" />
+                                <img src={image_c} style={{ height: 53, width: 36 }} alt="" />
                             </a>
                             <div className="content">
                                 <h3>C++</h3>
                                 <p>
-                                    can turn your html5 site into responsive React Application.
+                                    Can turn your Html5 site into responsive React Application.
                                 </p>
                             </div>
                         </section>
                         <section className="feature left">
                             <a to="#" className="image icon solid fa-mobile-alt">
-                                <img src="assets/images/pic03.jpg" alt="" />
+                                <img src={image_androidStudio} style={{ height: 53, width: 36 }} alt="" />
                             </a>
                             <div className="content">
                                 <h3>Mobile Application </h3>
