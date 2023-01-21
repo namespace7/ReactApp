@@ -2,6 +2,7 @@ import React from 'react'
 import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
 import { BsStackOverflow } from 'react-icons/bs'
+import {FaSteam} from 'react-icons/fa'
 
 export default function Footer() {
     return (
@@ -22,6 +23,9 @@ export default function Footer() {
                         </li>
                         <li>
                             <a href='https://stackoverflow.com/users/9603922/space' target="_blank"><BsStackOverflow /></a>
+                        </li>
+                        <li>
+                            <a href='https://s.team/y22/ggfvvdgv?l=english' target="_blank"><FaSteam /></a>
                         </li>
                         
                     </ul>

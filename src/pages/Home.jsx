@@ -44,7 +44,7 @@ export default function Home() {
                                 <img src={image_c} style={{ height: 53, width: 36 }} alt="" />
                             </a>
                             <div className="content">
-                                <h3>C++</h3>
+                                <h3>React Js</h3>
                                 <p>
                                     Can turn your Html5 site into responsive React Application.
                                 </p>
