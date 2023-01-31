@@ -8,11 +8,15 @@ export default function Header() {
                 <span className="  fa-paper-plane" />
                 <h1>Hi. I'm yashwant kumar</h1>
                 <p>
-                    Software Developer{" "}
+                    FullStack Software Engineer {" "}
                     <a to="http://html5up.net">Home</a>
                     <br />
                 </p>
+                
+
             </div>
+
+            
         </>
     )
 }
